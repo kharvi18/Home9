@@ -1,26 +1,23 @@
 {
-  "name": "geekhub",
+  "name": "home9",
   "version": "1.0.0",
-  "description": "homework",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharvi18/Home9.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.1.6",
+  "bugs": {
+    "url": "https://github.com/kharvi18/Home9/issues"
+  },
+  "homepage": "https://github.com/kharvi18/Home9#readme",
+  "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "normalize-scss": "^7.0.1"
+    "sass": "^1.15.2"
   }
 }

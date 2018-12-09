@@ -1,0 +1,452 @@
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------SECTION MAIN--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.main {
+  background: url("../img/main-bg.png") center center no-repeat #000;
+}
+
+.main-slider {
+  margin: 27% 0 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.left-arrow, .right-arrow {
+  display: block;
+  height: 53px;
+  width: 3%;
+  position: relative;
+  top: 50px;
+  left: 0;
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
+.main-text {
+  width: 92%;
+  padding: 0 1%;
+  float: left;
+}
+
+a {
+  &.left-arrow:hover, &.right-arrow:hover {
+    opacity: 0.5;
+  }
+}
+
+.main-header {
+  font-size: 60px;
+  font-weight: 100;
+  span {
+    font-weight: 700;
+  }
+}
+
+.main-annotation {
+  font-size: 24px;
+}
+
+.slider {
+  margin: 0 0 18%;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
+}
+
+.slider-position {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+a.slider-position:hover {
+  border-color: #17daa3;
+  background: #022822;
+}
+
+.down-arrow {
+  display: block;
+  width: 28px;
+  height: 15px;
+  margin: 0 auto 4%;
+}
+
+a.down-arrow:hover {
+  opacity: 0.5;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------------ABOUT US--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.about-us {
+  background: #fff;
+}
+
+.section-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  margin: 6% 0 2%;
+  &:after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background: #8becd1;
+    margin: 20px auto;
+  }
+}
+
+.about-us {
+  ul {
+    padding: 0;
+    margin: 10% 0 8%;
+    font-size: 0;
+    li {
+      display: inline-block;
+      width: 25%;
+      vertical-align: top;
+    }
+  }
+  article {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+}
+
+a.icon {
+  display: block;
+  height: 147px;
+  width: 147px;
+  background: #edeff1;
+  color: #87949e;
+  font-size: 53px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.icon span {
+  padding: 47px 0 0;
+}
+
+a.icon:hover {
+  background: #17daa3;
+  color: #fff;
+}
+
+.sec-article-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  margin: 15% 0;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------ARTICLES----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.articles ul {
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  li {
+    padding: 7% 0 8%;
+    &:nth-child(odd) {
+      background: #f9f9fa;
+    }
+    &:nth-child(even) {
+      background: #fff;
+    }
+  }
+}
+
+.articles-image {
+  width: 49%;
+}
+
+.articles {
+  article {
+    width: 49%;
+  }
+  ul li {
+    &:nth-child(odd) .articles-image {
+      float: left;
+    }
+    &:nth-child(even) .articles-image, &:nth-child(odd) article {
+      float: right;
+    }
+    &:nth-child(even) article {
+      float: left;
+    }
+  }
+}
+
+.articles-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  color: #576671;
+  margin: 1% 0 7%;
+}
+
+.articles {
+  p {
+    line-height: 1.7;
+  }
+  .btn {
+    margin: 10% 0 0 2%;
+    text-align: center;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------QUOTES----------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.quotes {
+  background: url("../img/quotes-bg.png") center center no-repeat #000;
+}
+
+.quotes-slider {
+  margin: 12% auto 8%;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.quote-container {
+  padding: 0 1%;
+  width: 92%;
+  float: left;
+}
+
+.quotes {
+  .left-arrow, .right-arrow {
+    top: 140px;
+  }
+}
+
+.quote-container blockquote {
+  font-size: 30px;
+  span {
+    color: #17daa3;
+  }
+}
+
+.author {
+  opacity: 0.3;
+  span {
+    font-weight: 500;
+  }
+  a:hover {
+    display: inline-block;
+    background: #17daa3;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1.0;
+  }
+}
+
+.quotes .slider {
+  margin: 0 0 8%;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OUR-SERVICE----------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.our-service {
+  background: #f9f9fa;
+  ul {
+    padding: 0;
+    margin: 8% 0 7%;
+    font-size: 0;
+    li {
+      display: inline-block;
+      width: 50%;
+      margin: 2% 0;
+      vertical-align: top;
+    }
+  }
+}
+
+.service-icon {
+  float: left;
+  margin: 10% 0 0 5%;
+  width: 9%;
+}
+
+.service-content {
+  float: left;
+  width: 79%;
+  margin: 0 0 0 7%;
+  font-size: 18px;
+  text-align: left;
+  line-height: 2;
+}
+
+.our-service .articles-header {
+  margin: 1% 0 0;
+  font-size: 2.5em;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------OUR TEAM------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.our-team {
+  background: #fff;
+  overflow: hidden;
+  ul {
+    padding: 0;
+    font-size: 0;
+    margin: 5% 0 0.5%;
+    li {
+      display: inline-block;
+      width: 20%;
+      vertical-align: top;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+}
+
+.item {
+  width: 100%;
+}
+
+.name {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 200;
+  width: 100%;
+  height: 60%;
+  color: #fff;
+  background: rgba(45, 221, 172, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  padding: 40% 0 0;
+}
+
+li:hover .name {
+  opacity: 1.0;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------PRICING----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.pricing {
+  background: #f9f9fa;
+  ul.blocks {
+    padding: 0;
+    margin: 10% auto 8%;
+    font-size: 0;
+    > li {
+      display: inline-block;
+      width: 23%;
+      padding: 0 1%;
+      background: #fff;
+      font-size: 18px;
+      text-align: left;
+      vertical-align: top;
+    }
+  }
+}
+
+.price {
+  color: #17daa3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  display: block;
+  padding-left: 3%;
+}
+
+.license {
+  opacity: 0.45;
+  padding-left: 3%;
+}
+
+.blocks ul {
+  padding: 1% 0 0 3%;
+  line-height: 2.3;
+  margin: 30% 0 18%;
+}
+
+.purchase {
+  display: block;
+  background: #17daa3;
+  padding: 5% 3%;
+  position: relative;
+  border: 2px solid #17daa3;
+}
+
+.icon-cart {
+  position: absolute;
+  right: 10%;
+}
+
+a.purchase:hover {
+  background: #fff;
+  color: #17daa3;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------MAP------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.map {
+  background: url("../img/map-bg.png") right center no-repeat #fff;
+  background-size: 50%;
+  text-align: left;
+  article {
+    width: 50%;
+    margin: 11% 0 13%;
+    p {
+      line-height: 1.7;
+      padding: 2% 0 5%;
+    }
+  }
+  .btn {
+    margin: 4% 0 0;
+    text-align: center;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------TRY-OUT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.try-out {
+  background: url("../img/try-our-template-bg.png") center center no-repeat #000;
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    color: #fff;
+    margin: 18% 0 6%;
+    span {
+      font-weight: 700;
+    }
+  }
+  .btn {
+    margin: 0 auto 19%;
+    border: 2px solid #17daa3;
+  }
+  a.btn:hover {
+    background: transparent;
+  }
+}

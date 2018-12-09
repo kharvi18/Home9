@@ -1,0 +1,27 @@
+.btn {
+  display: block;
+  width: 140px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  background: #17daa3;
+  margin: 4% auto 7%;
+  padding: 10px;
+}
+
+a.btn:hover {
+  background: #fff;
+  border: 2px solid #17daa3;
+  color: #17daa3;
+}
+
+.main-btn {
+  background: transparent;
+  margin: 4% auto;
+}
+
+a.main-btn:hover {
+  background: #022822;
+}

@@ -18,7 +18,7 @@ function handleError (err) {
 }
 
 gulp.task('styles', function () {
-  return gulp.src('./src/sass/main.scss')
+  return gulp.src(`./src/sass/*.scss`)
     .pipe(plumber({errorHandler: handleError}))
     .pipe(sourcemaps.init())
     .pipe(scss({outputStyle: 'compressed', includePaths: SASS_INCLUDE_PATHS}))
